@@ -1,5 +1,3 @@
--- 1. Ajuste questões de segurança, incluindo usuários, papéis e permissões.
-
 -- Criação de usuários de banco de dados:
 CREATE USER 'dono'@'salesSync_db' IDENTIFIED BY '1234';
 CREATE USER 'admin'@'salesSync_db' IDENTIFIED BY '1234';
@@ -28,8 +26,6 @@ END//
 
 DELIMITER ;
 
--- 2. Crie visões no banco de dados para consultas mais frequentes.
-
 -- VIEW para produtos em estoque:
 
 CREATE VIEW vw_produtos_estoque AS
@@ -47,8 +43,6 @@ JOIN perfil p ON v.perfil_id = p.id
 JOIN cliente c ON v.cliente_id = c.id;
 
 
--- 3. Crie ao menos uma stored function, um stored procedure ou um trigger para o banco de dados, selecionando uma funcionalidade que seja adequada para tanto.
-
 -- TRIGGER para atualizar estoque após venda:
 
 DELIMITER //
@@ -63,8 +57,6 @@ BEGIN
 END//
 DELIMITER ;
 
-
--- 4. Crie ao menos um índice composto para uma das tabelas.
 
 -- INDEX composto na tabela produto:
 CREATE INDEX idx_produto_categoria_nome ON produto (categoria_id, nome);
