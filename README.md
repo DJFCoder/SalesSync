@@ -11,10 +11,9 @@
 
 *Even when operating offline*, SalesSync has the capability to synchronize data with cloud servers, ensuring that information remains up-to-date and secure.
 
-
-<p align="center">
-  <img alt="Dark-Preview" src="./documentations/salesSyncDB.png" width="100%"><br>
-  <br>
-  
-  <img alt="Light-Preview" src="./documentations/DICIONARIO_DE_DADOS.png" width="100%">
-</p>
+## MySQL SCHEMA:
+</br>
+<div align="center">
+  <img alt="Dark-Preview" src="./documentations/salesSyncDB.png" width="50%">
+  <img alt="Light-Preview" src="./documentations/DICIONARIO_DE_DADOS.png" width="40%">
+</div>
