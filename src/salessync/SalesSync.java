@@ -9,8 +9,7 @@ public class SalesSync {
         
         - Gerenciamento de contas e permissões dos usuários internos pelo Administrador do Sistema. */
         
-        Profile admin = new Profile();
-                        
+        
     }
     
 }
