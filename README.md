@@ -18,7 +18,7 @@
   <img alt="DB-dictionary" src="./documentations/DICIONARIO_DE_DADOS.png" width="40%">
 </div>
 <div align="center">
-  <img alt="UML-Legend" src="./documentations/salesSync_UML_Legend.png" width="100%">
-  <img alt="UML-Management" src="./documentations/salesSync_UML_Management.png" width="100%">
-  <img alt="UML-Register" src="./documentations/salesSync_UML_UserRegister.png" width="100%">
+  <img alt="UML-Management" src="./documentations/salesSync_UML_Management.png" width="35%">
+  <img alt="UML-Register" src="./documentations/salesSync_UML_UserRegister.png" width="55%">
+  <img alt="UML-Legend" src="./documentations/salesSync_UML_Legend.png" width="80%">
 </div>
