@@ -14,6 +14,11 @@
 ## MySQL SCHEMA:
 </br>
 <div align="center">
-  <img alt="Dark-Preview" src="./documentations/salesSyncDB.png" width="50%">
-  <img alt="Light-Preview" src="./documentations/DICIONARIO_DE_DADOS.png" width="40%">
+  <img alt="DB-diagram" src="./documentations/salesSyncDB.png" width="50%">
+  <img alt="DB-dictionary" src="./documentations/DICIONARIO_DE_DADOS.png" width="40%">
+</div>
+<div align="center">
+  <img alt="UML-Legend" src="./documentations/salesSync_UML_Legend.png" width="100%">
+  <img alt="UML-Management" src="./documentations/salesSync_UML_Management.png" width="100%">
+  <img alt="UML-Register" src="./documentations/salesSync_UML_UserRegister.png" width="100%">
 </div>
