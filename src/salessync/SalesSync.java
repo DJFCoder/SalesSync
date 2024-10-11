@@ -1,7 +1,5 @@
 package salessync;
 
-import salessync.register.Profile;
-
 public class SalesSync {
 
     public static void main(String[] args) {

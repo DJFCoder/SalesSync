@@ -10,13 +10,12 @@ public class User {
     private LocalDateTime lastLogin;
     private Position position;
 
-    public User(String login, String password) {
+    private User(String login, String password) {
         this.userId = UUID.randomUUID();
         this.login = login;
         this.password = password;
     }
-    
-    
+
     public UUID getUserId() {
         return userId;
     }
