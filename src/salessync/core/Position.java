@@ -12,8 +12,30 @@ public class Position {
     private UUID positionId;
     private String type;
 
-    public Position(String type) {
+    public Position() {
         this.positionId = UUID.randomUUID();
+    }
+
+    public UUID getPositionId() {
+        return positionId;
+    }
+
+    public void setPositionId(UUID positionId) {
+        this.positionId = positionId;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
         this.type = type;
+    }
+    
+    public void chooseUserPosition(String positionType){
+        setType(positionType);
+        if (positionType.equals("admin".toUpperCase())){
+            System.out.println("esse usuário é o admnistrador.");
+        }
     }
 }
