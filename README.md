@@ -17,10 +17,3 @@
   <img alt="DB-diagram" src="./documentations/salesSyncDB.png" width="50%">
   <img alt="DB-dictionary" src="./documentations/DICIONARIO_DE_DADOS.png" width="40%">
 </div>
-
-## UML:
-<div align="center">
-  <img alt="UML-Management" src="./documentations/salesSync_UML_Management.png" width="35%">
-  <img alt="UML-Register" src="./documentations/salesSync_UML_UserRegister.png" width="55%">
-  <img alt="UML-Legend" src="./documentations/salesSync_UML_Legend.png" width="80%">
-</div>
